@@ -1,0 +1,172 @@
+{
+  "description": "Paper implementation packaging snapshot",
+  "date": "2026-11-13",
+  "reference_run": "paper_m_sd21base_k415_noattack_main172_seed1500_20261012T131444Z",
+  "reference_core_sha256": {
+    "ecc_utils.py": "1202bda336c330abf54dfb3b8f242bf61e9abaa197979da863aacd0c7141741a",
+    "qim_utils.py": "3b8255ddc00839b1d3b19a7941eb781c4add3d0b5dbd79b7cb6bb2cbfc862368",
+    "run_dct_qim_stega.py": "f0c61af6ac017185a8c3664fff6ec08bcc4985ed823e51c1b04fcefd6f3b7ec5"
+  },
+  "core_hash_match": {
+    "ecc_utils.py": true,
+    "qim_utils.py": true,
+    "run_dct_qim_stega.py": true
+  },
+  "files": {
+    ".gitattributes": {
+      "sha256": "78f6d30cbff0d85b574300b9046736639b72d2b6a8461055cd3f143a714d17f2",
+      "bytes": 76,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    ".gitignore": {
+      "sha256": "94b832705efcdf18ad36b16a08eaf085a77a4604d2b102d75b3d7f03ef80fa57",
+      "bytes": 205,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_dct_coefficients.py": {
+      "sha256": "4788a45096db9c7c1c16a9f0ec172625ab1fc46fe5099e1115a966fdba688c36",
+      "bytes": 24806,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_fc27_run_statistics.py": {
+      "sha256": "2ad955273a0345324288bf8909b9fe2ea84beac1d0078d62d418df5ad50712c5",
+      "bytes": 5844,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_ldpc_input_ablation.py": {
+      "sha256": "bf4d262623a01e307c85db864c78f5e12671bedfcc9820d0edc3f593df83005a",
+      "bytes": 5613,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_repetition_input_ablation.py": {
+      "sha256": "d944d48d2911c69b3f3d05638dfafeaa5e3a6e8705b7c8d16f2552e250183a2f",
+      "bytes": 3156,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_steganalysis_scores.py": {
+      "sha256": "ac0210fb425ea8201d162dd0b83c8758c91af1a45c76531378d5e3b0d7260bc8",
+      "bytes": 10437,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_treering_dataset.py": {
+      "sha256": "ee399d985b42100f9ff857919c30d970599b40741dd4a65d85e4923531858842",
+      "bytes": 11473,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "analyze_visual_quality.py": {
+      "sha256": "567640b87634230aabf3e844c8fec184ed855f8f4201c7730d496b3b4028fa2f",
+      "bytes": 15503,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "calculate_fid_score.py": {
+      "sha256": "84971429164a0da5e49929aba926226dd53aba28457cbda4f9ad4a411b86e664",
+      "bytes": 10232,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "collect_dct_inversions.py": {
+      "sha256": "2a542e39dfa77ec968ae5f0d129fcc4a30c89ad5dd2c2ab9871f8e62350806b3",
+      "bytes": 14002,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "ecc_utils.py": {
+      "sha256": "1202bda336c330abf54dfb3b8f242bf61e9abaa197979da863aacd0c7141741a",
+      "bytes": 16479,
+      "origin": "mounted experiment project"
+    },
+    "inception.py": {
+      "sha256": "8791b85290f50ec3926543592ec3bade7f5e07c19876062dfd9b457709f6d468",
+      "bytes": 12583,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "inverse_stable_diffusion.py": {
+      "sha256": "918eb53fc83b1c8c9ceb1188ef20c0dcc0e46d5138f5e0778a8f88633c1cdd04",
+      "bytes": 7233,
+      "origin": "mounted experiment project"
+    },
+    "licenses/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "licenses/Tree-Ring-MIT.txt": {
+      "sha256": "84e1e883b113a5b798169604036753480758b882d53bc5890b9161dfb6e6ad0a",
+      "bytes": 1065,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "modified_stable_diffusion.py": {
+      "sha256": "ee973b11edb3f9fa11285c421167b2e60cb6b0f94d8f57760c9b10b95f7af0fb",
+      "bytes": 10919,
+      "origin": "mounted experiment project"
+    },
+    "optim_utils.py": {
+      "sha256": "9ad8b1f218791cea03ca79c6c993f004a88279ff70e4bf7f7334c4e196be5f6a",
+      "bytes": 10127,
+      "origin": "mounted experiment project"
+    },
+    "prepare_fid_dirs.py": {
+      "sha256": "72705bc8e3be02658f9bfbe187219ffed419ff8b654c5133d0bd003816947753",
+      "bytes": 3224,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "prompts/five_styles.txt": {
+      "sha256": "f33148ddb4fa642da25f305f866f12e33bf6b0b55551c04dc23dabafcc3059c7",
+      "bytes": 266,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "prompts/paper172.txt": {
+      "sha256": "f46310d261c8c453adf1122c2dcd841752c62eaa3d20e4e46f55f0673bfbc9fc",
+      "bytes": 8374,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "qim_utils.py": {
+      "sha256": "3b8255ddc00839b1d3b19a7941eb781c4add3d0b5dbd79b7cb6bb2cbfc862368",
+      "bytes": 13980,
+      "origin": "mounted experiment project"
+    },
+    "README.md": {
+      "sha256": "e04bc185f532cc182c91d9e36afdc0ba11b48cb4f6a0dcecb260a0901ab02288",
+      "bytes": 9248,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "README_zh.md": {
+      "sha256": "5f74d9f06814db3388ecd9c0792deaada3efce29b01dbef4a0593129566b00fa",
+      "bytes": 2660,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "requirements.txt": {
+      "sha256": "a9cdea3b75c0ba643307ab08b49949a7029d08be0fe13fcbca700851c9fdef68",
+      "bytes": 452,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "run_dct_qim_stega.py": {
+      "sha256": "f0c61af6ac017185a8c3664fff6ec08bcc4985ed823e51c1b04fcefd6f3b7ec5",
+      "bytes": 26938,
+      "origin": "mounted experiment project"
+    },
+    "run_paper.py": {
+      "sha256": "2be8b96e7653e24c4b6ece5915dbc9b2f21cfc3c7dbb5afe8a430ee3d81e36b3",
+      "bytes": 3087,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "test_codec.py": {
+      "sha256": "3d2931a8373d3f4815dc3d607abf2c2c390d0976cce4d1f31f2cea62f82e5b71",
+      "bytes": 1588,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "d173258befd33c5e5743216872513f81aaff26d2c9112524be3b0bd09ce6b07c",
+      "bytes": 1268,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "VALIDATION.json": {
+      "sha256": "b34d36819bf6a0869b12f9525f7e83d42a7e2d2d0671cb078838315df939e438",
+      "bytes": 1092,
+      "origin": "local evaluation source or release documentation; see README"
+    },
+    "verify_release.py": {
+      "sha256": "7c8fb2c952168adb88959eab5f52cd0428745e584f4064bde06fe40690dc2a73",
+      "bytes": 823,
+      "origin": "local evaluation source or release documentation; see README"
+    }
+  }
+}

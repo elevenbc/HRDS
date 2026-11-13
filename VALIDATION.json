@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-13",
+  "core_hash_match": {
+    "ecc_utils.py": true,
+    "qim_utils.py": true,
+    "run_dct_qim_stega.py": true
+  },
+  "syntax": "All Python sources parse with Python 3.7 grammar",
+  "cli_checks": [
+    [
+      "run_paper.py",
+      "--model",
+      "/path/to/model",
+      "--images",
+      "5",
+      "--dry_run"
+    ],
+    [
+      "analyze_ldpc_input_ablation.py",
+      "--help"
+    ],
+    [
+      "analyze_dct_coefficients.py",
+      "--help"
+    ],
+    [
+      "collect_dct_inversions.py",
+      "--help"
+    ],
+    [
+      "analyze_treering_dataset.py",
+      "--help"
+    ],
+    [
+      "prepare_fid_dirs.py",
+      "--help"
+    ]
+  ],
+  "ldpc_cpu_round_trip": "Passed n=98,k=65 and n=623,k=415",
+  "dct_qim_round_trip": "Not run: local Python has no torch",
+  "gpu_generation_and_metrics": "Not run; requires target environment",
+  "path_and_token_scan": "No private machine paths or common token patterns found",
+  "dependency_installation": "Not performed; compatibility pins are not a recorded environment lock"
+}
